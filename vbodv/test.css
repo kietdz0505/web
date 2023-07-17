@@ -1,0 +1,42 @@
+.flex{
+    display: flex;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+.right>li{
+    list-style: none;
+}
+.right>li>a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+.left>li{
+    list-style: none;
+}
+.left>li>a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+.menu>ul{
+    margin: 0;
+    padding: 0;
+}
+.subnof{
+    background-color: cadetblue;
+    bottom: 85%;
+    position: absolute;
+    display: none;
+    right: 2%;
+}
+.bell:hover >.subnof{
+    display: block;
+}
+.subnof>li{
+    padding-right: 2rem;
+    list-style: none;
+}
